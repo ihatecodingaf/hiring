@@ -1,9 +1,16 @@
-# Hiring
+Assignment
 
-Resources and documentation for various roles at Vernacular.ai. Most recent
-listings can be seen on our [angel page](https://angel.co/vernacular-ai/jobs).
+Dockerfile
 
-TODO:
-+ [ ] Job Descriptions with process.
-+ [ ] Resources for ML Research Engineer role.
-+ [x] Resources for ML for Programmers role.
+Commands inside the dockerfile
+#Installing base image as ubuntu version16.04
+FROM ubuntu:16.04
+#Running update command
+RUN apt update
+#Installing Curl
+RUN  apt install curl -y
+#Install telnet
+RUN  apt install telnet -y
+#Install ffmpeg
+RUN  apt install ffmpeg -y
+
